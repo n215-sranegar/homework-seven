@@ -32,7 +32,7 @@ p {
   src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
 }
 nav {
-  max-width: 980px;
+  max-width: 90%;
   height: 80px;
   margin: 0 auto;
   display: flex;
@@ -67,11 +67,16 @@ nav .links span {
     margin: 0 auto;
   }
   nav .links span {
-    margin: 0 10.5px;
+    margin: 0 5.5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  nav .links {
+    display: none;
   }
 }
 header {
-  max-width: 1280px;
+  max-width: 95%;
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
   background-size: cover;
@@ -329,12 +334,12 @@ header button:hover {
 }
 footer {
   margin: 0 auto;
-  max-width: 1280px;
+  max-width: 95%;
   height: 100px;
   background-color: #79addc;
 }
 footer .footer-wrapper {
-  max-width: 980px;
+  max-width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -361,6 +366,14 @@ footer .footer-wrapper .social i:hover {
 @media screen and (max-width: 800px) {
   footer .footer-wrapper {
     margin: 0 auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer {
+    height: 170px;
+  }
+  footer .footer-wrapper {
+    flex-direction: column;
   }
 }
 
