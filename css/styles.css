@@ -71,7 +71,7 @@ nav .links span {
   }
 }
 header {
-  width: 100%;
+  max-width: 1280px;
   height: 500px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
   background-size: cover;
@@ -183,8 +183,150 @@ header button:hover {
 @media screen and (max-width: 800px) {
   .tours {
     flex-direction: column;
+    width: 300px;
     min-height: 940px;
   }
+}
+.form-content {
+  max-width: 818px;
+  margin: 0 auto;
+}
+.form-content h2 {
+  color: #000;
+  font-family: ProximaNova;
+  letter-spacing: 0.6px;
+  font-size: 60px;
+}
+.form-content .top-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .top-row .long-box {
+  width: 434px;
+}
+.form-content .top-row input {
+  width: 344px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+}
+.form-content .middle-row {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .middle-row label {
+  font-family: GillSansLight;
+  font-size: 18px;
+}
+.form-content .middle-row input {
+  width: 698px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+  padding: 0px 10px;
+}
+.form-content .room {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.form-content .room label {
+  font-family: GillSansLight;
+  font-size: 18px;
+}
+.form-content .room select {
+  width: 103px;
+  height: 58px;
+  border: 2px solid #79addc;
+  padding-left: 10px;
+  font-family: GillSansLight;
+}
+.form-content .room select:hover {
+  cursor: pointer;
+}
+.form-content .room .adult {
+  margin-left: 11px;
+}
+.form-content .message {
+  margin-top: 20px;
+}
+.form-content .message textarea {
+  width: 818px;
+  height: 192px;
+  border: 2px solid #79addc;
+  padding: 10px 0px 0px 10px;
+  font-family: GillSansLight;
+  resize: none;
+}
+.form-content .button-wrapper {
+  margin-top: 20px;
+}
+.form-content .button-wrapper button {
+  width: 818px;
+  background-color: #79addc;
+  height: 60.59px;
+  border: none;
+  color: white;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-bottom: 100px;
+}
+.form-content .button-wrapper button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .form-content h2 {
+    text-align: center;
+  }
+  .form-content .top-row {
+    flex-direction: column;
+  }
+  .form-content .top-row .long-box {
+    width: 80%;
+  }
+  .form-content .top-row input {
+    width: 80%;
+  }
+}
+footer {
+  margin: 0 auto;
+  width: 1280px;
+  height: 100px;
+  background-color: #79addc;
+}
+footer .footer-wrapper {
+  width: 980px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 35px;
+  margin: 0 auto;
+}
+footer .footer-wrapper .copyright {
+  padding-top: 15px;
+}
+footer .footer-wrapper .copyright p {
+  font-family: GillSans;
+  font-size: 12px;
+  color: #fff;
+}
+footer .footer-wrapper .social i {
+  font-size: 22px;
+  color: #fff;
+  margin-left: 22px;
+}
+footer .footer-wrapper .social i:hover {
+  cursor: pointer;
 }
 
 /*# sourceMappingURL=styles.css.map */
