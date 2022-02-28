@@ -1,11 +1,11 @@
 footer {
     margin: $center;
-    width: $banner-footer-width;
+    max-width: 1280px;
     height: 100px;
     background-color: $site-blue;
   
     .footer-wrapper {
-      width: $site-width;
+      max-width: 980px;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -37,3 +37,12 @@ footer {
     }
   }
   
+  @media screen and (max-width: 800px) {
+    footer {
+        .footer-wrapper {
+           
+            margin: 0 auto;
+            
+        }
+    }
+  }

@@ -141,12 +141,28 @@
       }
     }
 
+    .room {
+        flex-direction: column;
+        height: 220px;
+
+        .adult {
+            margin: 0 auto;
+        }
+
+        select {
+            width: 40%;
+            margin: 0 auto;
+        }
+    }
+
     .message {
+        padding-top: 20px;
         width: 80%;
         margin: 0 auto;
     }
 
     .button-wrapper {
+        padding-top: 20px;
         width: 80%;
         margin: 0 auto;
       
