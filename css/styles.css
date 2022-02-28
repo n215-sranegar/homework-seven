@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+@font-face {
+  font-family: GillSans;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: GillSansLight;
+  src: url(../fonts/Gill\ Sans\ Light.otf);
+}
+@font-face {
+  font-family: ProximaNova;
+  src: url(../fonts/ProximaNovaScOsfExtraCondensed.ttf);
+}
+nav {
+  max-width: 980px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid #fff;
+  position: relative;
+  z-index: 99;
+}
+nav .logo {
+  width: 92px;
+  height: 42px;
+}
+nav .links a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 15px;
+  color: #fff;
+  font-family: GillSans;
+  letter-spacing: 1px;
+}
+nav .links span {
+  color: #79addc;
+  margin: 0 19.5px;
+}
+
+header {
+  width: 1280px;
+  height: 500px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: -80px auto 0 auto;
+}
+header h1 {
+  font-family: ProximaNova;
+  font-size: 60px;
+  color: #fff;
+  padding-top: 172px;
+  padding-left: 553px;
+}
+header p {
+  width: 420px;
+  margin-left: 430px;
+  text-align: center;
+  font-family: GillSans;
+  color: #fff;
+  font-size: 20px;
+  font-style: italic;
+}
+header button {
+  background-color: #79addc;
+  width: 121.62px;
+  height: 40px;
+  border: none;
+  color: #fff;
+  margin-top: 48px;
+  margin-left: 574.7px;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+header button:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=styles.css.map */
