@@ -36,7 +36,9 @@ nav {
 
 @media screen and (max-width: 800px) {
     nav {
-        
+        .logo {
+            margin: 0 auto;
+        }
         .links {
             margin: 0 auto;
             span {

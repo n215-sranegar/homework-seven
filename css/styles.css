@@ -60,6 +60,9 @@ nav .links span {
 }
 
 @media screen and (max-width: 800px) {
+  nav .logo {
+    margin: 0 auto;
+  }
   nav .links {
     margin: 0 auto;
   }
@@ -81,11 +84,11 @@ header h1 {
   font-size: 60px;
   color: #fff;
   padding-top: 172px;
-  padding-left: 553px;
+  margin-left: 43%;
 }
 header p {
   width: 420px;
-  margin-left: 430px;
+  margin: 0 auto;
   text-align: center;
   font-family: GillSans;
   color: #fff;
@@ -98,8 +101,7 @@ header button {
   height: 40px;
   border: none;
   color: #fff;
-  margin-top: 48px;
-  margin-left: 574.7px;
+  margin: 2% 45%;
   font-family: GillSans;
   font-size: 15px;
   text-transform: uppercase;
@@ -108,6 +110,11 @@ header button:hover {
   cursor: pointer;
 }
 
+@media screen and (max-width: 800px) {
+  header {
+    height: 635px;
+  }
+}
 .tours {
   width: 818px;
   height: 304px;
