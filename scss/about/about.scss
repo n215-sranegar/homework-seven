@@ -58,6 +58,7 @@
         .quote {
             width: 440px;
             margin-bottom: 20px;
+            font-style: italic;
         }
 
         .client-name {
@@ -80,14 +81,19 @@
         .client-quote-container {
             flex-direction: column;
 
-            
             .image {
                 margin: 0 auto;
                 margin-bottom: 37px;
             }
 
-            p {
-                margin: 0 auto;
+            .quote {
+                width: 90%;
+                padding-bottom: 20px;
+            }
+
+            .client-name {
+                bottom: 0;
+                left: 0;
             }
         }
     }

@@ -10,7 +10,6 @@ nav {
     z-index: 99;
     border-bottom: 2px solid $site-white;
 
-
     .logo {
         width: 92px;
         height: 42px;
@@ -50,6 +49,11 @@ nav {
     }
 }
 
+.nav {
+    border-bottom: 2px solid #000;
+}
+
+
 @media screen and (max-width: 800px) {
     nav {
         .logo {
@@ -73,3 +77,4 @@ nav {
        
     }
 }
+

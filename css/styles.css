@@ -76,6 +76,10 @@ nav .links span {
   margin: 0 19.5px;
 }
 
+.nav {
+  border-bottom: 2px solid #000;
+}
+
 @media screen and (max-width: 800px) {
   nav .logo {
     margin: 0 auto;
@@ -356,7 +360,7 @@ footer {
   background-color: #79addc;
 }
 footer .footer-wrapper {
-  max-width: 75%;
+  max-width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -439,6 +443,7 @@ footer .footer-wrapper .social i:hover {
 .about .client-quote-container .quote {
   width: 440px;
   margin-bottom: 20px;
+  font-style: italic;
 }
 .about .client-quote-container .client-name {
   position: absolute;
@@ -459,8 +464,13 @@ footer .footer-wrapper .social i:hover {
     margin: 0 auto;
     margin-bottom: 37px;
   }
-  .about .client-quote-container p {
-    margin: 0 auto;
+  .about .client-quote-container .quote {
+    width: 90%;
+    padding-bottom: 20px;
+  }
+  .about .client-quote-container .client-name {
+    bottom: 0;
+    left: 0;
   }
 }
 
