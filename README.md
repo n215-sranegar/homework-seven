@@ -1,8 +1,8 @@
 # Homework Five
 
-## Making a responsive about page for the Travel-fly prototype.
+## Adding a responsive about page to the Travel-fly prototype.
 
-This assignment challenged my ability to make a site responsive by using media queries and percentages. My intention is to start focusing on responsive web design to target mobile devices. 
+My intention is to start focusing on responsive web design to target mobile devices. I used percentages and media queries to make the site responsive and adaptive. This website is based on a XD prototype for a college course assignment. 
 
-
+https://in-info-web4.informatics.iupui.edu/~sranegar/homework-five/index.html
 
