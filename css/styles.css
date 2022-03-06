@@ -80,7 +80,7 @@ nav .links span {
   border-bottom: 2px solid #000;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
   nav .logo {
     margin: 0 auto;
   }
@@ -90,8 +90,14 @@ nav .links span {
   nav .links span {
     margin: 0 5.5px;
   }
+  nav .home-links {
+    margin: 0 auto;
+  }
+  nav .home-links span {
+    margin: 0 5.5px;
+  }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   nav .logo {
     display: none;
   }
@@ -136,7 +142,7 @@ header button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
   header {
     height: 635px;
   }
@@ -206,7 +212,7 @@ header button:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
   .tours {
     flex-direction: column;
     width: 300px;
@@ -360,7 +366,7 @@ footer {
   background-color: #79addc;
 }
 footer .footer-wrapper {
-  max-width: 80%;
+  max-width: 79%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -384,12 +390,12 @@ footer .footer-wrapper .social i:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 865px) {
   footer .footer-wrapper {
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   footer {
     height: 170px;
   }
@@ -420,6 +426,7 @@ footer .footer-wrapper .social i:hover {
   font-family: ProximaNova;
   font-size: 40px;
   border-bottom: solid 2px #000;
+  margin-bottom: 37px;
 }
 .about .about-client-quotes p {
   font-family: GillSans;
@@ -429,7 +436,6 @@ footer .footer-wrapper .social i:hover {
   max-width: 722px;
   display: flex;
   position: relative;
-  margin-bottom: 37px;
 }
 .about .client-quote-container .image {
   width: 260px;
@@ -442,7 +448,7 @@ footer .footer-wrapper .social i:hover {
 }
 .about .client-quote-container .quote {
   width: 440px;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
   font-style: italic;
 }
 .about .client-quote-container .client-name {
@@ -466,7 +472,7 @@ footer .footer-wrapper .social i:hover {
   }
   .about .client-quote-container .quote {
     width: 90%;
-    padding-bottom: 20px;
+    margin-bottom: 20px;
   }
   .about .client-quote-container .client-name {
     bottom: 0;

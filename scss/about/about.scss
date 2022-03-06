@@ -1,100 +1,98 @@
 .about {
-    margin-top: 110px;
-    margin-bottom: 180px;
+  margin-top: 110px;
+  margin-bottom: 180px;
+
+  p {
+    margin-bottom: 95px;
+  }
+
+  .about-header {
+    h1 {
+      text-transform: uppercase;
+      border-bottom: solid 2px #000;
+      width: 90px;
+      // background-color: pink;
+      font-family: ProximaNova;
+      font-size: 60px;
+    }
 
     p {
-        margin-bottom: 95px;
+      font-family: GillSans;
+      font-size: 16px;
+    }
+  }
+
+  .about-client-quotes {
+    h2 {
+      text-transform: uppercase;
+      font-family: ProximaNova;
+      font-size: 40px;
+      border-bottom: solid 2px #000;
+      margin-bottom: 37px;
     }
 
-    .about-header {
-        h1 {
-            text-transform: uppercase;
-            border-bottom: solid 2px #000;
-            width: 90px;
-            // background-color: pink;
-            font-family: ProximaNova;
-            font-size: 60px;
-        }
+    p {
+      font-family: GillSans;
+      font-size: 16px;
+    }
+  }
 
-        p {
-            font-family: GillSans;
-            font-size: 16px;
-        }
+  .client-quote-container {
+    max-width: 722px;
+    display: flex;
+    position: relative;
+
+    .image {
+      width: 260px;
+      height: 150px;
+      margin-right: 21px;
+      // background-color: red;
+      overflow: hidden;
+
+      img {
+        width: 100%;
+      }
     }
 
-    .about-client-quotes {
-        h2 {
-            text-transform: uppercase;
-            font-family: ProximaNova;
-            font-size: 40px;
-            border-bottom: solid 2px #000;
-            
-        }
-
-        p {
-            font-family: GillSans;
-            font-size: 16px;
-        }
+    .quote {
+      width: 440px;
+      padding-bottom: 20px;
+      font-style: italic;
     }
 
-    .client-quote-container {
-        max-width: 722px;
-        display: flex;
-        position: relative;
-        margin-bottom: 37px;
+    .client-name {
+      position: absolute;
+      bottom: 0;
+      right: 0;
 
-        .image {
-            width: 260px;
-            height: 150px;
-            margin-right: 21px;
-            // background-color: red;
-            overflow: hidden;
-
-            img {
-                width: 100%;
-            }
-        }
-
-        .quote {
-            width: 440px;
-            margin-bottom: 20px;
-            font-style: italic;
-        }
-
-        .client-name {
-            // background-color: purple;
-            position: absolute;
-            bottom: 0;
-            right: 0;
-
-            p {
-                font-family: ProximaNova;
-                color: $site-blue;
-                font-size: 20px;
-            }
-        }
+      p {
+        font-family: ProximaNova;
+        color: $site-blue;
+        font-size: 20px;
+      }
     }
+  }
 }
 
 @media screen and (max-width: 800px) {
-    .about {
-        .client-quote-container {
-            flex-direction: column;
+  .about {
+    .client-quote-container {
+      flex-direction: column;
 
-            .image {
-                margin: 0 auto;
-                margin-bottom: 37px;
-            }
+      .image {
+        margin: 0 auto;
+        margin-bottom: 37px;
+      }
 
-            .quote {
-                width: 90%;
-                padding-bottom: 20px;
-            }
+      .quote {
+        width: 90%;
+        margin-bottom: 20px;
+      }
 
-            .client-name {
-                bottom: 0;
-                left: 0;
-            }
-        }
+      .client-name {
+        bottom: 0;
+        left: 0;
+      }
     }
+  }
 }
