@@ -397,14 +397,29 @@ footer .footer-wrapper .social i:hover {
   margin-top: 110px;
   margin-bottom: 180px;
 }
+.about p {
+  margin-bottom: 95px;
+}
 .about .about-header h1 {
   text-transform: uppercase;
   border-bottom: solid 2px #000;
   width: 90px;
-  background-color: pink;
+  font-family: ProximaNova;
+  font-size: 60px;
+}
+.about .about-header p {
+  font-family: GillSans;
+  font-size: 16px;
 }
 .about .about-client-quotes h2 {
   text-transform: uppercase;
+  font-family: ProximaNova;
+  font-size: 40px;
+  border-bottom: solid 2px #000;
+}
+.about .about-client-quotes p {
+  font-family: GillSans;
+  font-size: 16px;
 }
 .about .client-quote-container {
   max-width: 722px;
@@ -416,7 +431,6 @@ footer .footer-wrapper .social i:hover {
   width: 260px;
   height: 150px;
   margin-right: 21px;
-  background-color: red;
   overflow: hidden;
 }
 .about .client-quote-container .image img {
@@ -427,14 +441,14 @@ footer .footer-wrapper .social i:hover {
   margin-bottom: 20px;
 }
 .about .client-quote-container .client-name {
-  background-color: purple;
   position: absolute;
   bottom: 0;
   right: 0;
 }
 .about .client-quote-container .client-name p {
-  text-transform: uppercase;
+  font-family: ProximaNova;
   color: #79addc;
+  font-size: 20px;
 }
 
 @media screen and (max-width: 800px) {
@@ -442,6 +456,10 @@ footer .footer-wrapper .social i:hover {
     flex-direction: column;
   }
   .about .client-quote-container .image {
+    margin: 0 auto;
+    margin-bottom: 37px;
+  }
+  .about .client-quote-container p {
     margin: 0 auto;
   }
 }
