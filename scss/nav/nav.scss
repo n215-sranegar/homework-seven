@@ -16,13 +16,29 @@ nav {
         height: 42px;
     }
 
-    .links {
+    .home-links {
 
         a {
             text-decoration: none;
             text-transform: lowercase;
             font-size: 15px;
             color: $site-white; 
+            font-family: GillSans;
+            letter-spacing: 1px;
+        }
+
+        span {
+            color: $site-blue;
+            margin: 0 19.5px;
+        }
+    }
+
+    .links {
+        a {
+            text-decoration: none;
+            text-transform: lowercase;
+            font-size: 15px;
+            color: #000; 
             font-family: GillSans;
             letter-spacing: 1px;
         }

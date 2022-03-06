@@ -19,6 +19,11 @@ p {
   margin-bottom: 16px;
 }
 
+.app {
+  max-width: 75%;
+  margin: 0 auto;
+}
+
 @font-face {
   font-family: GillSans;
   src: url(../fonts/GillSans.ttc);
@@ -46,11 +51,23 @@ nav .logo {
   width: 92px;
   height: 42px;
 }
-nav .links a {
+nav .home-links a {
   text-decoration: none;
   text-transform: lowercase;
   font-size: 15px;
   color: #fff;
+  font-family: GillSans;
+  letter-spacing: 1px;
+}
+nav .home-links span {
+  color: #79addc;
+  margin: 0 19.5px;
+}
+nav .links a {
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 15px;
+  color: #000;
   font-family: GillSans;
   letter-spacing: 1px;
 }
@@ -374,6 +391,58 @@ footer .footer-wrapper .social i:hover {
   }
   footer .footer-wrapper {
     flex-direction: column;
+  }
+}
+.about {
+  margin-top: 110px;
+  margin-bottom: 180px;
+}
+.about .about-header h1 {
+  text-transform: uppercase;
+  border-bottom: solid 2px #000;
+  width: 90px;
+  background-color: pink;
+}
+.about .about-client-quotes h2 {
+  text-transform: uppercase;
+}
+.about .client-quote-container {
+  max-width: 722px;
+  display: flex;
+  position: relative;
+  margin-bottom: 37px;
+}
+.about .client-quote-container .image {
+  width: 260px;
+  height: 150px;
+  margin-right: 21px;
+  background-color: red;
+  overflow: hidden;
+}
+.about .client-quote-container .image img {
+  width: 100%;
+}
+.about .client-quote-container .quote {
+  width: 440px;
+  margin-bottom: 20px;
+}
+.about .client-quote-container .client-name {
+  background-color: purple;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.about .client-quote-container .client-name p {
+  text-transform: uppercase;
+  color: #79addc;
+}
+
+@media screen and (max-width: 800px) {
+  .about .client-quote-container {
+    flex-direction: column;
+  }
+  .about .client-quote-container .image {
+    margin: 0 auto;
   }
 }
 

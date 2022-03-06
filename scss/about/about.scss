@@ -1,0 +1,67 @@
+.about {
+    margin-top: 110px;
+    margin-bottom: 180px;
+
+    .about-header {
+        h1 {
+            text-transform: uppercase;
+            border-bottom: solid 2px #000;
+            width: 90px;
+            background-color: pink;
+        }
+    }
+
+    .about-client-quotes {
+        h2 {
+            text-transform: uppercase;
+        }
+    }
+
+    .client-quote-container {
+        max-width: 722px;
+        display: flex;
+        position: relative;
+        margin-bottom: 37px;
+
+        .image {
+            width: 260px;
+            height: 150px;
+            margin-right: 21px;
+            background-color: red;
+            overflow: hidden;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .quote {
+            width: 440px;
+            margin-bottom: 20px;
+        }
+
+        .client-name {
+            background-color: purple;
+            position: absolute;
+            bottom: 0;
+            right: 0;
+
+            p {
+                text-transform: uppercase;
+                color: $site-blue;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .about {
+        .client-quote-container {
+            flex-direction: column;
+
+            .image {
+                margin: 0 auto;
+            }
+        }
+    }
+}
