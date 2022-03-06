@@ -9,11 +9,15 @@
   .about-header {
     h1 {
       text-transform: uppercase;
-      border-bottom: solid 2px #000;
-      width: 90px;
-      // background-color: pink;
       font-family: ProximaNova;
       font-size: 60px;
+    }
+
+    h1:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid black;
+        width: 171px;
     }
 
     p {
@@ -27,8 +31,15 @@
       text-transform: uppercase;
       font-family: ProximaNova;
       font-size: 40px;
-      border-bottom: solid 2px #000;
+    //   border-bottom: solid 2px #000;
       margin-bottom: 37px;
+    }
+
+    h2:after {
+        content: "";
+        display: block;
+        width: 255px;
+        border-bottom: 2px solid black;
     }
 
     p {

@@ -412,10 +412,14 @@ footer .footer-wrapper .social i:hover {
 }
 .about .about-header h1 {
   text-transform: uppercase;
-  border-bottom: solid 2px #000;
-  width: 90px;
   font-family: ProximaNova;
   font-size: 60px;
+}
+.about .about-header h1:after {
+  content: "";
+  display: block;
+  border-bottom: 2px solid black;
+  width: 171px;
 }
 .about .about-header p {
   font-family: GillSans;
@@ -425,8 +429,13 @@ footer .footer-wrapper .social i:hover {
   text-transform: uppercase;
   font-family: ProximaNova;
   font-size: 40px;
-  border-bottom: solid 2px #000;
   margin-bottom: 37px;
+}
+.about .about-client-quotes h2:after {
+  content: "";
+  display: block;
+  width: 255px;
+  border-bottom: 2px solid black;
 }
 .about .about-client-quotes p {
   font-family: GillSans;
