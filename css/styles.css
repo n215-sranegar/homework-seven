@@ -457,7 +457,7 @@ footer .footer-wrapper .social i:hover {
 }
 .about .client-quote-container .quote {
   width: 440px;
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   font-style: italic;
 }
 .about .client-quote-container .client-name {
@@ -481,7 +481,7 @@ footer .footer-wrapper .social i:hover {
   }
   .about .client-quote-container .quote {
     width: 90%;
-    margin-bottom: 20px;
+    padding-bottom: 40px;
   }
   .about .client-quote-container .client-name {
     bottom: 0;

@@ -14,10 +14,10 @@
     }
 
     h1:after {
-        content: "";
-        display: block;
-        border-bottom: 2px solid black;
-        width: 171px;
+      content: "";
+      display: block;
+      border-bottom: 2px solid black;
+      width: 171px;
     }
 
     p {
@@ -31,15 +31,14 @@
       text-transform: uppercase;
       font-family: ProximaNova;
       font-size: 40px;
-    //   border-bottom: solid 2px #000;
       margin-bottom: 37px;
     }
 
     h2:after {
-        content: "";
-        display: block;
-        width: 255px;
-        border-bottom: 2px solid black;
+      content: "";
+      display: block;
+      width: 255px;
+      border-bottom: 2px solid black;
     }
 
     p {
@@ -67,7 +66,7 @@
 
     .quote {
       width: 440px;
-      padding-bottom: 20px;
+      padding-bottom: 80px;
       font-style: italic;
     }
 
@@ -97,7 +96,7 @@
 
       .quote {
         width: 90%;
-        margin-bottom: 20px;
+        padding-bottom: 40px;
       }
 
       .client-name {
