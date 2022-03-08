@@ -1,0 +1,27 @@
+.tours-promo {
+    max-width: 980px;
+    min-height: 304px;
+    background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    
+
+    .promo {
+      @include promo(#f3f3f3);
+
+        
+        
+        .promo-text {
+            font-size: 24px;
+            font-family: sans-serif;
+            margin-bottom: 60px;
+        }
+        .read-button {
+            @include site-btn();
+        }
+
+       
+    }
+}

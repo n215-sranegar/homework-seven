@@ -516,4 +516,35 @@ footer .footer-wrapper .social i:hover {
   right: 10px;
 }
 
+.tours-promo {
+  max-width: 980px;
+  min-height: 304px;
+  background-color: pink;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+.tours-promo .promo {
+  background-color: #f3f3f3;
+  height: 304px;
+  width: 236px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.tours-promo .promo .promo-text {
+  font-size: 24px;
+  font-family: sans-serif;
+  margin-bottom: 60px;
+}
+.tours-promo .promo .read-button {
+  background-color: #79addc;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
+
 /*# sourceMappingURL=styles.css.map */
