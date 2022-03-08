@@ -1,4 +1,4 @@
-.about-hero {
+.tour-hero {
     max-width: $site-width;
     margin: 0 auto ;
     background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url(../images/tour/tour-01.jpg);
@@ -11,7 +11,7 @@
     margin-top: 48.5px;
 
 
-    .about-hero-text {
+    .tour-hero-text {
         font-family: ProximaNova;
         font-size: 80px;
         position: absolute;
@@ -20,7 +20,7 @@
 
     }
 
-    .about-price-text {
+    .tour-price-text {
         font-family: ProximaNova;
         font-style: italic;
         margin-bottom: 0;
@@ -30,3 +30,4 @@
         right: 10px;
     }
 }
+

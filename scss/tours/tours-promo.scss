@@ -13,9 +13,6 @@
     .promo {
       @include promo(#f3f3f3);
 
-        
-    
-       
     }
 
     .isreal1 {
@@ -37,5 +34,12 @@
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+    }
+}
+
+@media screen and (max-width: 927px) {
+    .tours-promo {
+        flex-direction: column;
+        margin-top: 27px;
     }
 }

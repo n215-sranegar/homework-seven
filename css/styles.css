@@ -488,7 +488,7 @@ footer .footer-wrapper .social i:hover {
     left: 0;
   }
 }
-.about-hero {
+.tour-hero {
   max-width: 980px;
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
@@ -500,14 +500,14 @@ footer .footer-wrapper .social i:hover {
   position: relative;
   margin-top: 48.5px;
 }
-.about-hero .about-hero-text {
+.tour-hero .tour-hero-text {
   font-family: ProximaNova;
   font-size: 80px;
   position: absolute;
   top: 10px;
   left: 10px;
 }
-.about-hero .about-price-text {
+.tour-hero .tour-price-text {
   font-family: ProximaNova;
   font-style: italic;
   margin-bottom: 0;
@@ -553,6 +553,13 @@ footer .footer-wrapper .social i:hover {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 927px) {
+  .tours-promo {
+    flex-direction: column;
+    margin-top: 27px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
