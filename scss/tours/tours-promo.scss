@@ -1,6 +1,6 @@
 .tours-promo {
     max-width: 980px;
-    min-height: 304px;
+    min-height: 347px;
     background-color: pink;
     display: flex;
     justify-content: space-between;
@@ -12,16 +12,28 @@
       @include promo(#f3f3f3);
 
         
-        
-        .promo-text {
-            font-size: 24px;
-            font-family: sans-serif;
-            margin-bottom: 60px;
-        }
-        .read-button {
-            @include site-btn();
-        }
-
+    
        
+    }
+
+    .isreal1 {
+        background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .isreal2 {
+        background-image: url(../images/tour/tour-isreal/israel-tour-02.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .isreal3 {
+        background-image: url(../images/tour/tour-isreal/israel-tour-03.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 }
