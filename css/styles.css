@@ -488,5 +488,32 @@ footer .footer-wrapper .social i:hover {
     left: 0;
   }
 }
+.about-hero {
+  max-width: 980px;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+}
+.about-hero .about-hero-text {
+  font-family: ProximaNova;
+  font-size: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.about-hero .about-price-text {
+  font-family: ProximaNova;
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
 
 /*# sourceMappingURL=styles.css.map */
