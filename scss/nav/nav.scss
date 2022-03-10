@@ -1,9 +1,24 @@
 nav {
   @include navigation();
+  position: relative;
 
   .logo {
     width: 92px;
     height: 42px;
+  }
+
+  label {
+    @include navigation-hamburger-menu();
+  }
+
+  .mobile-menu {
+    @include navigation-hamburger-menu(#000);
+  }
+
+  #toggle {
+    display: none;
+    position: absolute;
+    right: 0;
   }
 
   .home-links {
@@ -33,31 +48,79 @@ nav {
   @include navigation(#000);
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 660px) {
   nav {
-    .logo {
-      margin: 0 auto;
+    label {
+      display: block;
+      cursor: pointer;
     }
-    .links {
-      margin: 0 auto;
-      span {
-        margin: 0 5.5px;
+
+    .mobile-menu {
+        display: block;
+        cursor: pointer;
+    }
+
+    #toggle:checked + .home-links {
+      display: block;
+    }
+
+    #toggle:checked + .links {
+        display: block;
       }
-    }
 
     .home-links {
-      margin: 0 auto;
+      margin-top: 320px ;
+      margin-right: 0px;
+      text-align: center;
+      display: none;
+      width: 65%;
+      height: 400px;
+      background-color: $site-black;
+      padding-top: 70px;
+
+      a {
+        vertical-align: middle;
+        text-align: center;
+        font-family: GillSansLight;
+        display: block;
+        border-bottom: 1px solid $site-white;
+        line-height: 53.5px;
+       
+      }
+
       span {
-        margin: 0 5.5px;
+          display: none;
       }
     }
-  }
-}
 
-@media screen and (max-width: 700px) {
-  nav {
-    .logo {
+    .links {
+        margin-top: 320px ;
+      margin-right: 0px;
+      text-align: center;
       display: none;
+      width: 65%;
+      height: 400px;
+      background-color: $site-black;
+      padding-top: 70px;
+  
+        a {
+            vertical-align: middle;
+            text-align: center;
+            font-family: GillSansLight;
+            display: block;
+            border-bottom: 1px solid $site-white;
+            color: $site-white;
+            line-height: 53.5px;
+           
+        }
+  
+        span {
+            display: none;
+        }
+      }
+
+    .logo {
+      margin-left: 5%;
     }
   }
 }
