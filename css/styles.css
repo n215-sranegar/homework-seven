@@ -488,81 +488,6 @@ footer .footer-wrapper .social i:hover {
     left: 0;
   }
 }
-.tour-hero {
-  max-width: 980px;
-  margin: 0 auto;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(../images/tour/tour-01.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 413px;
-  color: white;
-  position: relative;
-  margin-top: 48.5px;
-}
-.tour-hero .tour-hero-text {
-  font-family: ProximaNova;
-  font-size: 80px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-.tour-hero .tour-price-text {
-  font-family: ProximaNova;
-  font-style: italic;
-  margin-bottom: 0;
-  font-size: 30px;
-  position: absolute;
-  bottom: 0;
-  right: 10px;
-}
-
-.tours-promo {
-  max-width: 980px;
-  min-height: 347px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 18px;
-}
-.tours-promo .promo {
-  background-color: #f3f3f3;
-  height: 347px;
-  width: 298px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.tours-promo .isreal1 {
-  background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.tours-promo .isreal2 {
-  background-image: url(../images/tour/tour-isreal/israel-tour-02.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.tours-promo .isreal3 {
-  background-image: url(../images/tour/tour-isreal/israel-tour-03.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-@media screen and (max-width: 1025px) {
-  .tours-promo {
-    flex-direction: column;
-  }
-  .tours-promo .promo {
-    margin-bottom: 30px;
-  }
-}
 .tours-header {
   max-width: 980px;
   height: 200px;
@@ -691,28 +616,102 @@ footer .footer-wrapper .social i:hover {
     min-height: 940px;
   }
 }
-.tours-intinerary-wrapper {
+.package-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+.package-hero .package-hero-text {
+  font-family: ProximaNova;
+  font-size: 80px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.package-hero .package-price-text {
+  font-family: ProximaNova;
+  font-style: italic;
+  margin-bottom: 0;
+  font-size: 30px;
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+}
+
+.package-photo-wrapper {
+  max-width: 980px;
+  min-height: 347px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 18px;
+}
+.package-photo-wrapper .promo {
+  background-color: #f3f3f3;
+  height: 347px;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.package-photo-wrapper .isreal1 {
+  background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .isreal2 {
+  background-image: url(../images/tour/tour-isreal/israel-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .isreal3 {
+  background-image: url(../images/tour/tour-isreal/israel-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+@media screen and (max-width: 1025px) {
+  .tours-promo {
+    flex-direction: column;
+  }
+  .tours-promo .promo {
+    margin-bottom: 30px;
+  }
+}
+.package-intinerary-wrapper {
   max-width: 980px;
   margin: 30px auto;
 }
-.tours-intinerary-wrapper .day h2 {
+.package-intinerary-wrapper .day h2 {
   font-family: ProximaNova;
   font-size: 60px;
   letter-spacing: 10px;
 }
-.tours-intinerary-wrapper .day p {
+.package-intinerary-wrapper .day p {
   max-width: 100%;
   margin-top: 39px;
   margin-bottom: 70px;
   font-family: GillSans;
   font-size: 16px;
 }
-.tours-intinerary-wrapper .button-wrapper {
+.package-intinerary-wrapper .button-wrapper {
   max-width: 133px;
   margin: 10px auto 100px auto;
   padding-top: 10px;
 }
-.tours-intinerary-wrapper .button-wrapper button {
+.package-intinerary-wrapper .button-wrapper button {
   width: 133px;
   height: 40px;
   background-color: #79addc;
@@ -723,21 +722,21 @@ footer .footer-wrapper .social i:hover {
   font-size: 15px;
   text-transform: uppercase;
 }
-.tours-intinerary-wrapper .button-wrapper button:hover {
+.package-intinerary-wrapper .button-wrapper button:hover {
   cursor: pointer;
 }
 
 @media screen and (max-width: 1025px) {
-  .tours-intinerary-wrapper {
+  .package-intinerary-wrapper {
     margin-top: 40px;
   }
-  .tours-intinerary-wrapper .day {
+  .package-intinerary-wrapper .day {
     margin-bottom: 75px;
   }
-  .tours-intinerary-wrapper .day h2 {
+  .package-intinerary-wrapper .day h2 {
     text-align: center;
   }
-  .tours-intinerary-wrapper .day p {
+  .package-intinerary-wrapper .day p {
     text-align: center;
     margin: 0 auto;
     max-width: 65%;
