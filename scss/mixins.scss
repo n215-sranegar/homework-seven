@@ -1,69 +1,69 @@
 //Navigation
 @mixin navigation($homeNavColor: #fff) {
-    max-width: $site-width;
-    height: 80px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: relative;
-    z-index: 99;
-    border-bottom: 2px solid $homeNavColor;
+  max-width: $site-width;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  z-index: 99;
+  border-bottom: 2px solid $homeNavColor;
 }
 
 //Navigation links
 @mixin navigation-links($homeNavLinkColor: #fff) {
-    text-decoration: none;
-    text-transform: lowercase;
-    font-size: 15px;
-    color: $homeNavLinkColor; 
-    font-family: GillSans;
-    letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: lowercase;
+  font-size: 15px;
+  color: $homeNavLinkColor;
+  font-family: GillSans;
+  letter-spacing: 1px;
 }
 
 //Tour Package Hero Mixin
-@mixin tour-package-hero($bgImage: 
-url(../images/tour/tour-01.jpg)) {
-    margin: 0 auto;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),$bgImage;
-    max-width: $site-width;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 413px;
-    color: $site-white;
-    position: relative;
-    margin-top: 48.5px;
+@mixin tour-package-hero($bgImage: url(../images/tour/tour-01.jpg)) {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    $bgImage;
+  max-width: $site-width;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: $site-white;
+  position: relative;
+  margin-top: 48.5px;
 }
 
 //Tour Package Promo Photos Mixins
-@mixin promo-photo($promoImg: url(../images/tour/tour-isreal/israel-tour-01.jpg)) {
-    background-color: rgb(255, 230, 234);
-    height: 347px;
-    width: 298px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background-image: $promoImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+@mixin promo-photo(
+  $promoImg: url(../images/tour/tour-isreal/israel-tour-01.jpg)
+) {
+  background-color: rgb(255, 230, 234);
+  height: 347px;
+  width: 298px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: $promoImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 //Tour page box grid
 @mixin grid-box($gridImg: urL(../images/tour/tour-01.jpg)) {
-    height: 304px;
-    width: 236px;
-    background-color: rgb(218, 218, 218);
-    background-image: linear-gradient(
-        rgba($site-black, 0.4),
-        rgba($site-black, 0.4)
-      ),
-      $gridImg;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+  height: 304px;
+  width: 236px;
+  background-color: rgb(218, 218, 218);
+  background-image: linear-gradient(
+      rgba($site-black, 0.4),
+      rgba($site-black, 0.4)
+    ),
+    $gridImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
-
-

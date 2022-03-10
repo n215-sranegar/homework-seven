@@ -1,68 +1,63 @@
 nav {
-    @include navigation();
+  @include navigation();
 
-    .logo {
-        width: 92px;
-        height: 42px;
+  .logo {
+    width: 92px;
+    height: 42px;
+  }
+
+  .home-links {
+    a {
+      @include navigation-links();
     }
 
-    .home-links {
+    span {
+      color: $site-blue;
+      margin: 0 19.5px;
+    }
+  }
 
-        a {
-            @include navigation-links();
-        }
-
-        span {
-            color: $site-blue;
-            margin: 0 19.5px;
-        }
+  .links {
+    a {
+      @include navigation-links(#000);
     }
 
-    .links {
-        a {
-            @include navigation-links(#000);
-        }
-
-        span {
-            color: $site-blue;
-            margin: 0 19.5px;
-        }
+    span {
+      color: $site-blue;
+      margin: 0 19.5px;
     }
+  }
 }
 
 .nav {
-    @include navigation(#000);
+  @include navigation(#000);
 }
 
-
 @media screen and (max-width: 865px) {
-    nav {
-        .logo {
-            margin: 0 auto;
-        }
-        .links {
-            margin: 0 auto;
-            span {
-                    margin: 0 5.5px;
-             }
-         }
-
-         .home-links {
-            margin: 0 auto;
-            span {
-                    margin: 0 5.5px;
-             }
-         }
-        
+  nav {
+    .logo {
+      margin: 0 auto;
     }
+    .links {
+      margin: 0 auto;
+      span {
+        margin: 0 5.5px;
+      }
+    }
+
+    .home-links {
+      margin: 0 auto;
+      span {
+        margin: 0 5.5px;
+      }
+    }
+  }
 }
 
 @media screen and (max-width: 700px) {
-    nav {
-        .logo {
-            display: none;
-        }
-       
+  nav {
+    .logo {
+      display: none;
     }
+  }
 }
-
