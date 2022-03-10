@@ -144,13 +144,15 @@
     .room {
         flex-direction: column;
         height: 220px;
-
-        .adult {
-            margin: 0 auto;
+  
+     
+        .dropdown {
+            margin: 0px auto;
         }
 
         select {
-            width: 40%;
+           
+            width: 30%;
             margin: 0 auto;
         }
     }

@@ -15,11 +15,11 @@
     }
 
     .isreal2 {
-        @include promo-photo();
+        @include promo-photo(url(../images/tour/tour-isreal/israel-tour-02.jpg));
     }
 
     .isreal3 {
-        @include promo-photo();
+        @include promo-photo(url(../images/tour/tour-isreal/israel-tour-03.jpg));
     }
 
     .usa1 {

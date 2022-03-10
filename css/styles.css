@@ -345,11 +345,11 @@ nav .links span {
     flex-direction: column;
     height: 220px;
   }
-  .form-content .room .adult {
-    margin: 0 auto;
+  .form-content .room .dropdown {
+    margin: 0px auto;
   }
   .form-content .room select {
-    width: 40%;
+    width: 30%;
     margin: 0 auto;
   }
   .form-content .message {
@@ -816,7 +816,7 @@ footer .footer-wrapper .social i:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
+  background-image: url(../images/tour/tour-isreal/israel-tour-02.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -829,7 +829,7 @@ footer .footer-wrapper .social i:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
+  background-image: url(../images/tour/tour-isreal/israel-tour-03.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
