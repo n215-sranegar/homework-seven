@@ -229,7 +229,10 @@ nav .links span {
 
 @media screen and (max-width: 865px) {
   .home-hero {
-    height: 100%;
+    height: 100vh;
+  }
+  .home-hero h1 {
+    padding-top: 255px;
   }
 }
 .tours {
@@ -302,6 +305,7 @@ nav .links span {
     flex-direction: column;
     width: 300px;
     min-height: 940px;
+    margin-top: 20px;
   }
 }
 .form-content {
