@@ -517,6 +517,22 @@ footer .footer-wrapper .social i:hover {
   right: 10px;
 }
 
+.intinerary-wrapper {
+  max-width: 980px;
+  margin: 30px auto;
+}
+.intinerary-wrapper .day h2 {
+  font-family: ProximaNova;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.intinerary-wrapper .day p {
+  margin-top: 39px;
+  margin-bottom: 70px;
+  font-family: GillSans;
+  font-size: 16px;
+}
+
 .tours-promo {
   max-width: 980px;
   min-height: 347px;

@@ -31,3 +31,25 @@
     }
 }
 
+.intinerary-wrapper {
+    max-width: $site-width;
+    margin: 30px auto;
+
+    .day {
+
+        h2 {
+            font-family: ProximaNova;
+            font-size: 60px;
+            letter-spacing: 10px;
+        }
+
+        p {
+            margin-top: 39px;
+            margin-bottom: 70px;
+            font-family: GillSans;
+            font-size: 16px;
+        }
+    }
+    
+    
+}
