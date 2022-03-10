@@ -1,24 +1,3 @@
-.tours-header {
-    max-width: $site-width;
-    height: 200px;
-    background-image:  linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)),url(../images/tour/tours-header.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 49.5px auto;
-
-
-    h1 {
-        color: $site-white;
-        font-family: ProximaNova;
-        font-size: 60px;
-        letter-spacing: 10px;
-        text-transform: uppercase;
-        text-align: center;
-        padding-top: 60px;
-    }
-}
-
 .tours-row {
     width: 818px;
     height: 304px;
