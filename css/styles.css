@@ -740,6 +740,16 @@ footer .footer-wrapper .social i:hover {
   margin-top: 48.5px;
 }
 
+@media screen and (max-width: 1025px) {
+  .package-hero .package-hero-text {
+    padding: 10px;
+    line-height: 60px;
+  }
+  .package-hero .package-price-text {
+    padding: 15px;
+    line-height: 30px;
+  }
+}
 .package-photo-wrapper {
   max-width: 980px;
   min-height: 347px;
