@@ -1,79 +1,31 @@
 .tour-hero {
-    max-width: $site-width;
-    margin: 0 auto ;
-    background-image: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)),url(../images/tour/tour-01.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 413px;
-    color: white;
-    position: relative;
-    margin-top: 48.5px;
+  max-width: $site-width;
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
 
+  .tour-hero-text {
+    font-family: ProximaNova;
+    font-size: 80px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
 
-    .tour-hero-text {
-        font-family: ProximaNova;
-        font-size: 80px;
-        position: absolute;
-        top: 10px;
-        left: 10px;
-
-    }
-
-    .tour-price-text {
-        font-family: ProximaNova;
-        font-style: italic;
-        margin-bottom: 0;
-        font-size: 30px;
-        position: absolute;
-        bottom: 0;
-        right: 10px;
-    }
+  .tour-price-text {
+    font-family: ProximaNova;
+    font-style: italic;
+    margin-bottom: 0;
+    font-size: 30px;
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+  }
 }
-
-.intinerary-wrapper {
-    max-width: $site-width;
-    margin: 30px auto;
-
-    .day {
-
-        h2 {
-            font-family: ProximaNova;
-            font-size: 60px;
-            letter-spacing: 10px;
-        }
-
-        p {
-            margin-top: 39px;
-            margin-bottom: 70px;
-            font-family: GillSans;
-            font-size: 16px;
-        }
-    }
-    
-    .button-wrapper {
-        max-width: 133px;
-        margin: 10px auto 100px auto;
-        padding-top: 10px;
-
-        button {
-            width: 133px;
-            height: 40px;
-            background-color: $site-blue;
-            border: none;
-            border-radius: 20px;
-            color: $site-white;
-            font-family: GillSans;
-            font-size: 15px;
-            text-transform: uppercase;
-            
-          }
-        
-          button:hover {
-            cursor: pointer;
-          }
-    }
-  
-}
-
-

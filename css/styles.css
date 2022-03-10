@@ -517,41 +517,6 @@ footer .footer-wrapper .social i:hover {
   right: 10px;
 }
 
-.intinerary-wrapper {
-  max-width: 980px;
-  margin: 30px auto;
-}
-.intinerary-wrapper .day h2 {
-  font-family: ProximaNova;
-  font-size: 60px;
-  letter-spacing: 10px;
-}
-.intinerary-wrapper .day p {
-  margin-top: 39px;
-  margin-bottom: 70px;
-  font-family: GillSans;
-  font-size: 16px;
-}
-.intinerary-wrapper .button-wrapper {
-  max-width: 133px;
-  margin: 10px auto 100px auto;
-  padding-top: 10px;
-}
-.intinerary-wrapper .button-wrapper button {
-  width: 133px;
-  height: 40px;
-  background-color: #79addc;
-  border: none;
-  border-radius: 20px;
-  color: #fff;
-  font-family: GillSans;
-  font-size: 15px;
-  text-transform: uppercase;
-}
-.intinerary-wrapper .button-wrapper button:hover {
-  cursor: pointer;
-}
-
 .tours-promo {
   max-width: 980px;
   min-height: 347px;
@@ -590,10 +555,12 @@ footer .footer-wrapper .social i:hover {
   background-repeat: no-repeat;
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 1025px) {
   .tours-promo {
     flex-direction: column;
-    margin-top: 27px;
+  }
+  .tours-promo .promo {
+    margin-bottom: 30px;
   }
 }
 .tours-header {
@@ -717,11 +684,63 @@ footer .footer-wrapper .social i:hover {
   cursor: pointer;
 }
 
-@media screen and (max-width: 865px) {
+@media screen and (max-width: 845px) {
   .tours-row {
     flex-direction: column;
     width: 300px;
     min-height: 940px;
+  }
+}
+.tours-intinerary-wrapper {
+  max-width: 980px;
+  margin: 30px auto;
+}
+.tours-intinerary-wrapper .day h2 {
+  font-family: ProximaNova;
+  font-size: 60px;
+  letter-spacing: 10px;
+}
+.tours-intinerary-wrapper .day p {
+  max-width: 100%;
+  margin-top: 39px;
+  margin-bottom: 70px;
+  font-family: GillSans;
+  font-size: 16px;
+}
+.tours-intinerary-wrapper .button-wrapper {
+  max-width: 133px;
+  margin: 10px auto 100px auto;
+  padding-top: 10px;
+}
+.tours-intinerary-wrapper .button-wrapper button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.tours-intinerary-wrapper .button-wrapper button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1025px) {
+  .tours-intinerary-wrapper {
+    margin-top: 40px;
+  }
+  .tours-intinerary-wrapper .day {
+    margin-bottom: 75px;
+  }
+  .tours-intinerary-wrapper .day h2 {
+    text-align: center;
+  }
+  .tours-intinerary-wrapper .day p {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 65%;
   }
 }
 

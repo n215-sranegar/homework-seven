@@ -1,0 +1,61 @@
+.tours-intinerary-wrapper {
+  max-width: $site-width;
+  margin: 30px auto;
+
+  .day {
+    h2 {
+      font-family: ProximaNova;
+      font-size: 60px;
+      letter-spacing: 10px;
+    }
+
+    p {
+      max-width: 100%;
+      margin-top: 39px;
+      margin-bottom: 70px;
+      font-family: GillSans;
+      font-size: 16px;
+    }
+  }
+
+  .button-wrapper {
+    max-width: 133px;
+    margin: 10px auto 100px auto;
+    padding-top: 10px;
+
+    button {
+      width: 133px;
+      height: 40px;
+      background-color: $site-blue;
+      border: none;
+      border-radius: 20px;
+      color: $site-white;
+      font-family: GillSans;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+
+    button:hover {
+      cursor: pointer;
+    }
+  }
+}
+
+@media screen and (max-width: 1025px) {
+    .tours-intinerary-wrapper {
+        margin-top: 40px;
+        .day {
+            margin-bottom: 75px;
+
+            h2 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+                margin: 0 auto;
+                max-width: 65%;
+            }
+        }
+    }
+}

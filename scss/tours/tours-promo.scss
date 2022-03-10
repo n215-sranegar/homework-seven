@@ -37,9 +37,12 @@
     }
 }
 
-@media screen and (max-width: 927px) {
+@media screen and (max-width: 1025px) {
     .tours-promo {
         flex-direction: column;
-        margin-top: 27px;
+
+        .promo {
+            margin-bottom: 30px;
+        }
     }
 }
