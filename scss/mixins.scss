@@ -1,3 +1,26 @@
+//Navigation
+@mixin navigation($homeNavColor: #fff) {
+    max-width: $site-width;
+    height: 80px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    z-index: 99;
+    border-bottom: 2px solid $homeNavColor;
+}
+
+//Navigation links
+@mixin navigation-links($homeNavLinkColor: #fff) {
+    text-decoration: none;
+    text-transform: lowercase;
+    font-size: 15px;
+    color: $homeNavLinkColor; 
+    font-family: GillSans;
+    letter-spacing: 1px;
+}
+
 //Tour Package Hero Mixin
 @mixin tour-package-hero($bgImage: 
 url(../images/tour/tour-01.jpg)) {
