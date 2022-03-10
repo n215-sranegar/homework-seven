@@ -532,6 +532,25 @@ footer .footer-wrapper .social i:hover {
   font-family: GillSans;
   font-size: 16px;
 }
+.intinerary-wrapper .button-wrapper {
+  max-width: 133px;
+  margin: 10px auto 100px auto;
+  padding-top: 10px;
+}
+.intinerary-wrapper .button-wrapper button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+}
+.intinerary-wrapper .button-wrapper button:hover {
+  cursor: pointer;
+}
 
 .tours-promo {
   max-width: 980px;

@@ -51,5 +51,29 @@
         }
     }
     
-    
+    .button-wrapper {
+        max-width: 133px;
+        margin: 10px auto 100px auto;
+        padding-top: 10px;
+
+        button {
+            width: 133px;
+            height: 40px;
+            background-color: $site-blue;
+            border: none;
+            border-radius: 20px;
+            color: $site-white;
+            font-family: GillSans;
+            font-size: 15px;
+            text-transform: uppercase;
+            
+          }
+        
+          button:hover {
+            cursor: pointer;
+          }
+    }
+  
 }
+
+
