@@ -8,6 +8,13 @@
         font-size: 60px;
         letter-spacing: 10px;
       }
+
+      h2:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid black;
+        width: 177.75px;
+      }
   
       p {
         max-width: 100%;
@@ -49,6 +56,9 @@
   
               h2 {
                   text-align: center;
+              }
+              h2:after {
+                margin: 0 auto;
               }
   
               p {
