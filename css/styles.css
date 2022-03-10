@@ -147,8 +147,8 @@ nav .links span {
 }
 
 @media screen and (max-width: 865px) {
-  header {
-    height: 635px;
+  .home-hero {
+    height: 100%;
   }
 }
 .tours {
@@ -512,10 +512,9 @@ footer .footer-wrapper .social i:hover {
 }
 
 .tours-row {
-  width: 818px;
+  max-width: 818px;
   height: 304px;
   margin: 0 auto;
-  margin-top: 55px;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
@@ -637,9 +636,10 @@ footer .footer-wrapper .social i:hover {
 
 @media screen and (max-width: 845px) {
   .tours-row {
+    margin-bottom: 34px;
     flex-direction: column;
     width: 300px;
-    min-height: 940px;
+    min-height: 980px;
   }
 }
 .package-hero {
@@ -660,7 +660,6 @@ footer .footer-wrapper .social i:hover {
   position: absolute;
   top: 30px;
   left: 26px;
-  white-space: nowrap;
 }
 .package-hero .package-price-text {
   font-family: ProximaNova;
@@ -778,7 +777,7 @@ footer .footer-wrapper .social i:hover {
 @media screen and (max-width: 1025px) {
   .package-hero .package-hero-text {
     padding: 10px;
-    line-height: 60px;
+    line-height: 65px;
   }
   .package-hero .package-price-text {
     padding: 15px;

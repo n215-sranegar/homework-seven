@@ -1,9 +1,8 @@
 .tours-row {
-  width: 818px;
+  max-width: $home-form-width;
   height: 304px;
   // background-color: rgb(211, 200, 198);
   margin: $center;
-  margin-top: 55px;
   margin-bottom: 50px;
   display: flex;
   justify-content: space-between;
@@ -84,8 +83,9 @@
 
 @media screen and (max-width: 845px) {
   .tours-row {
+    margin-bottom: 34px;
     flex-direction: column;
     width: 300px;
-    min-height: 940px;
+    min-height: 980px;
   }
 }
