@@ -86,6 +86,42 @@
     .egypt3 {
         @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-03.jpg));
     }
+
+    .japan1 {
+        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-01.jpg));
+    }
+
+    .japan2 {
+        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-02.jpg));
+    }
+
+    .japan3 {
+        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-03.jpg));
+    }
+
+    .canada1 {
+        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-01.jpg));
+    }
+
+    .canada2 {
+        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-02.jpg));
+    }
+
+    .canada3 {
+        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-03.jpg));
+    }
+
+    .uae1 {
+        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-01.jpg));
+    }
+
+    .uae2 {
+        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-02.jpg));
+    }
+
+    .uae3 {
+        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-03.jpg));
+    }
 }
 
 @media screen and (max-width: 1025px) {

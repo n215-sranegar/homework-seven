@@ -728,7 +728,7 @@ footer .footer-wrapper .social i:hover {
   margin-top: 48.5px;
 }
 
-.fuae-hero {
+.uae-hero {
   margin: 0 auto;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
   background-size: cover;
@@ -863,6 +863,60 @@ footer .footer-wrapper .social i:hover {
 }
 .package-photo-wrapper .egypt3 {
   background-image: url(../images/tour/tour-egypt/egypt-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .japan1 {
+  background-image: url(../images/tour/tour-japan/japan-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .japan2 {
+  background-image: url(../images/tour/tour-japan/japan-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .japan3 {
+  background-image: url(../images/tour/tour-japan/japan-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .canada1 {
+  background-image: url(../images/tour/tour-canada/canada-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .canada2 {
+  background-image: url(../images/tour/tour-canada/canada-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .canada3 {
+  background-image: url(../images/tour/tour-canada/canada-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .uae1 {
+  background-image: url(../images/tour/tour-uae/uae-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .uae2 {
+  background-image: url(../images/tour/tour-uae/uae-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .uae3 {
+  background-image: url(../images/tour/tour-uae/uae-tour-03.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
