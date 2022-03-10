@@ -561,5 +561,24 @@ footer .footer-wrapper .social i:hover {
     margin-top: 27px;
   }
 }
+.tours-header {
+  max-width: 980px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tours-header.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 49.5px auto;
+  margin-bottom: 100px;
+}
+.tours-header h1 {
+  color: #fff;
+  font-family: ProximaNova;
+  font-size: 60px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 60px;
+}
 
 /*# sourceMappingURL=styles.css.map */
