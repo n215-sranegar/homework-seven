@@ -142,32 +142,25 @@
     }
 
     .room {
-        flex-direction: column;
-        height: 220px;
-  
-     
-        .dropdown {
-            margin: 0px auto;
-        }
+      flex-direction: column;
+      height: 320px;
 
-        select {
-           
-            width: 30%;
-            margin: 0 auto;
-        }
+      select {
+        width: 25%;
+        margin: 0 auto;
+      }
     }
 
     .message {
-        padding-top: 20px;
-        width: 80%;
-        margin: 0 auto;
+      padding-top: 20px;
+      width: 80%;
+      margin: 20px auto;
     }
 
     .button-wrapper {
-        padding-top: 20px;
-        width: 80%;
-        margin: 0 auto;
-      
+      padding-top: 20px;
+      width: 80%;
+      margin: 0 auto;
     }
   }
 }

@@ -428,19 +428,16 @@ nav .links span {
   }
   .form-content .room {
     flex-direction: column;
-    height: 220px;
-  }
-  .form-content .room .dropdown {
-    margin: 0px auto;
+    height: 320px;
   }
   .form-content .room select {
-    width: 30%;
+    width: 25%;
     margin: 0 auto;
   }
   .form-content .message {
     padding-top: 20px;
     width: 80%;
-    margin: 0 auto;
+    margin: 20px auto;
   }
   .form-content .button-wrapper {
     padding-top: 20px;
