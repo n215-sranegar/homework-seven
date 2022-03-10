@@ -668,6 +668,78 @@ footer .footer-wrapper .social i:hover {
   margin-top: 48.5px;
 }
 
+.nz-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-04.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
+.france-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-05.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
+.egypt-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-06.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
+.japan-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-07.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
+.canada-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-08.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
+.fuae-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-09.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
 .package-photo-wrapper {
   max-width: 980px;
   min-height: 347px;
@@ -737,6 +809,42 @@ footer .footer-wrapper .social i:hover {
 }
 .package-photo-wrapper .aus3 {
   background-image: url(../images/tour/tour-aus/aus-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .nz1 {
+  background-image: url(../images/tour/tour-nz/nz-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .nz2 {
+  background-image: url(../images/tour/tour-nz/nz-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .nz3 {
+  background-image: url(../images/tour/tour-nz/nz-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .france1 {
+  background-image: url(../images/tour/tour-france/france-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .france2 {
+  background-image: url(../images/tour/tour-france/france-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .france3 {
+  background-image: url(../images/tour/tour-france/france-tour-03.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

@@ -50,6 +50,30 @@
     .aus3 {
         @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-03.jpg));
     }
+
+    .nz1 {
+        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-01.jpg));
+    }
+
+    .nz2 {
+        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-02.jpg));
+    }
+
+    .nz3 {
+        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-03.jpg));
+    }
+
+    .france1 {
+        @include promo-photo-left(url(../images/tour/tour-france/france-tour-01.jpg));
+    }
+
+    .france2 {
+        @include promo-photo-left(url(../images/tour/tour-france/france-tour-02.jpg));
+    }
+
+    .france3 {
+        @include promo-photo-left(url(../images/tour/tour-france/france-tour-03.jpg));
+    }
 }
 
 @media screen and (max-width: 1025px) {

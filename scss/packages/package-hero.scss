@@ -28,3 +28,27 @@
 .aus-hero {
   @include tour-package-hero(url(../images/tour/tour-03.jpg)); 
 }
+
+.nz-hero {
+  @include tour-package-hero(url(../images/tour/tour-04.jpg)); 
+}
+
+.france-hero {
+  @include tour-package-hero(url(../images/tour/tour-05.jpg));
+}
+
+.egypt-hero {
+  @include tour-package-hero(url(../images/tour/tour-06.jpg));
+}
+
+.japan-hero {
+  @include tour-package-hero(url(../images/tour/tour-07.jpg));
+}
+
+.canada-hero {
+  @include tour-package-hero(url(../images/tour/tour-08.jpg));
+}
+
+.fuae-hero {
+  @include tour-package-hero(url(../images/tour/tour-09.jpg));
+}
