@@ -569,7 +569,6 @@ footer .footer-wrapper .social i:hover {
   background-position: center;
   background-repeat: no-repeat;
   margin: 49.5px auto;
-  margin-bottom: 100px;
 }
 .tours-header h1 {
   color: #fff;
@@ -579,6 +578,80 @@ footer .footer-wrapper .social i:hover {
   text-transform: uppercase;
   text-align: center;
   padding-top: 60px;
+}
+
+.tours-row {
+  width: 818px;
+  height: 304px;
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tours-row .box {
+  height: 304px;
+  width: 236px;
+  background-color: #dadada;
+}
+.tours-row .left {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours-row .middle {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours-row .right {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/tour/tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.tours-row h2 {
+  text-align: center;
+  font-family: ProximaNova;
+  color: #fff;
+  font-size: 60px;
+  text-transform: uppercase;
+  padding-top: 47px;
+  white-space: nowrap;
+}
+.tours-row h3 {
+  text-align: center;
+  font-family: ProximaNova;
+  color: #fff;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-top: -15px;
+}
+.tours-row button {
+  width: 133px;
+  height: 40px;
+  background-color: #79addc;
+  border: none;
+  border-radius: 20px;
+  color: #fff;
+  font-family: GillSans;
+  font-size: 15px;
+  text-transform: uppercase;
+  margin: 35px 52px;
+}
+.tours-row button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 865px) {
+  .tours-row {
+    flex-direction: column;
+    width: 300px;
+    min-height: 940px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
