@@ -1,11 +1,11 @@
 footer {
     margin: $center;
-    max-width: 95%;
+    max-width: 100%;
     height: 100px;
     background-color: $site-blue;
   
     .footer-wrapper {
-      max-width: 79%;
+      max-width: $site-width;
       display: flex;
       justify-content: space-between;
       align-items: center;

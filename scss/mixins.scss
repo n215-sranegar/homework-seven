@@ -3,11 +3,12 @@
 url(../images/tour/tour-01.jpg)) {
     margin: 0 auto;
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),$bgImage;
+    max-width: $site-width;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     height: 413px;
-    color: white;
+    color: $site-white;
     position: relative;
     margin-top: 48.5px;
 }
