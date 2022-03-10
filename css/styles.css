@@ -46,7 +46,6 @@ nav {
   position: relative;
   z-index: 99;
   border-bottom: 2px solid #fff;
-  position: relative;
 }
 nav .logo {
   width: 92px;
@@ -113,6 +112,9 @@ nav .links span {
 }
 
 @media screen and (max-width: 670px) {
+  nav {
+    position: relative;
+  }
   nav label {
     display: block;
     cursor: pointer;

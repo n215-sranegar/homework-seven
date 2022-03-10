@@ -1,7 +1,6 @@
 nav {
   @include navigation();
-  position: relative;
-
+  
   .logo {
     width: 92px;
     height: 42px;
@@ -51,6 +50,8 @@ nav {
 //media query for mobile devices
 @media screen and (max-width: 670px) {
   nav {
+    position: relative;
+
     label {
       display: block;
       cursor: pointer;
@@ -126,11 +127,11 @@ nav {
 
 //media query for responsive navigation
 @media screen and (max-width: 990px) {
-    nav {
-        margin: 0 10px 0 10px;
-    }
+  nav {
+    margin: 0 10px 0 10px;
+  }
 
-    .nav {
-        margin: 0 10px 0 10px;
-    }
+  .nav {
+    margin: 0 10px 0 10px;
+  }
 }
