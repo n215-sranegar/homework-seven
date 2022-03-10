@@ -38,6 +38,18 @@
     .usa3 {
         @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-03.jpg));
     }
+
+    .aus1 {
+        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-01.jpg));
+    }
+
+    .aus2 {
+        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-02.jpg));
+    }
+
+    .aus3 {
+        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-03.jpg));
+    }
 }
 
 @media screen and (max-width: 1025px) {

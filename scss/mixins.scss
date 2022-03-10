@@ -1,3 +1,18 @@
+//Tour Package Hero Mixin
+@mixin tour-package-hero($bgImage: 
+url(../images/tour/tour-01.jpg)) {
+    margin: 0 auto;
+    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),$bgImage;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 413px;
+    color: white;
+    position: relative;
+    margin-top: 48.5px;
+}
+
+//Tour Package Promo Photos Mixins
 @mixin promo($bgColor: #faebd7) {
     background-color: $bgColor;
     height: 347px;
@@ -29,37 +44,4 @@
     background-repeat: no-repeat;
 }
 
-@mixin site-btn($borderRadius: 5px, $btnPadding: 5px 15px) {
-    background-color: $site-blue;
-    padding: $btnPadding;
-    border-radius: $borderRadius;
-    color: white;
-    cursor: pointer;
-}
-
-@mixin tour-package-hero($bgImage: 
-url(../images/tour/tour-01.jpg)) {
-    margin: 0 auto;
-    background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),$bgImage;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 413px;
-    color: white;
-    position: relative;
-    margin-top: 48.5px;
-}
-
-@mixin tour-package-photos() {
-    max-width: 980px;
-    min-height: 347px;
-    // background-color: pink;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 18px;
-    
-}
 
