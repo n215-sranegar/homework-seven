@@ -55,3 +55,14 @@ footer {
           }
       }
   }
+
+  
+//media query for responsive navigation with left and right margins
+@media screen and (max-width: 990px) {
+  footer {
+     .footer-wrapper {
+      margin: 0 10px 0 10px;
+     } 
+  }
+
+}
