@@ -74,6 +74,18 @@
     .france3 {
         @include promo-photo-left(url(../images/tour/tour-france/france-tour-03.jpg));
     }
+
+    .egypt1 {
+        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-01.jpg));
+    }
+
+    .egypt2 {
+        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-02.jpg));
+    }
+
+    .egypt3 {
+        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-03.jpg));
+    }
 }
 
 @media screen and (max-width: 1025px) {
