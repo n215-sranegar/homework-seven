@@ -1,5 +1,5 @@
 .package-hero {
-    @include package-hero(); 
+    @include tour-package-hero(); 
   
     .package-hero-text {
       font-family: ProximaNova;
@@ -20,3 +20,7 @@
     }
   }
   
+
+.usa-hero {
+  @include tour-package-hero(url(../images/tour/tour-02.jpg)); 
+}

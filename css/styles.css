@@ -644,6 +644,18 @@ footer .footer-wrapper .social i:hover {
   right: 10px;
 }
 
+.usa-hero {
+  margin: 0 auto;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/tour/tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 413px;
+  color: white;
+  position: relative;
+  margin-top: 48.5px;
+}
+
 .package-photo-wrapper {
   max-width: 980px;
   min-height: 347px;
@@ -681,12 +693,30 @@ footer .footer-wrapper .social i:hover {
   background-position: center;
   background-repeat: no-repeat;
 }
+.package-photo-wrapper .usa1 {
+  background-image: url(../images/tour/tour-usa/usa-tour-01.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .usa2 {
+  background-image: url(../images/tour/tour-usa/usa-tour-02.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.package-photo-wrapper .usa3 {
+  background-image: url(../images/tour/tour-usa/usa-tour-03.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
 @media screen and (max-width: 1025px) {
-  .tours-promo {
+  .package-photo-wrapper {
     flex-direction: column;
   }
-  .tours-promo .promo {
+  .package-photo-wrapper .promo {
     margin-bottom: 30px;
   }
 }

@@ -8,6 +8,27 @@
     justify-content: center;
 }
 
+@mixin promo-photo-left($leftImg: url(../images/tour/tour-isreal/israel-tour-01.jpg)) {
+    background-image: $leftImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin promo-photo-middle($middleImg: url(../images/tour/tour-isreal/israel-tour-02.jpg)) {
+    background-image: $middleImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@mixin promo-photo-right($rightImg: url(../images/tour/tour-isreal/israel-tour-03.jpg)) {
+    background-image: $rightImg;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 @mixin site-btn($borderRadius: 5px, $btnPadding: 5px 15px) {
     background-color: $site-blue;
     padding: $btnPadding;
@@ -16,11 +37,7 @@
     cursor: pointer;
 }
 
-@mixin tour-img($imgUrl: url()) {
-
-}
-
-@mixin package-hero($bgImage: 
+@mixin tour-package-hero($bgImage: 
 url(../images/tour/tour-01.jpg)) {
     margin: 0 auto;
     background-image: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)),$bgImage;
@@ -32,3 +49,17 @@ url(../images/tour/tour-01.jpg)) {
     position: relative;
     margin-top: 48.5px;
 }
+
+@mixin tour-package-photos() {
+    max-width: 980px;
+    min-height: 347px;
+    // background-color: pink;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 18px;
+    
+}
+

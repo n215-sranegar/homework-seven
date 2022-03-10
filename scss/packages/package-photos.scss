@@ -16,29 +16,32 @@
     }
 
     .isreal1 {
-        background-image: url(../images/tour/tour-isreal/israel-tour-01.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @include promo-photo-left();
     }
 
     .isreal2 {
-        background-image: url(../images/tour/tour-isreal/israel-tour-02.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @include promo-photo-middle();
     }
 
     .isreal3 {
-        background-image: url(../images/tour/tour-isreal/israel-tour-03.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        @include promo-photo-right();
+    }
+
+    .usa1 {
+        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-01.jpg));
+    }
+
+    .usa2 {
+        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-02.jpg));
+    }
+
+    .usa3 {
+        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-03.jpg));
     }
 }
 
 @media screen and (max-width: 1025px) {
-    .tours-promo {
+    .package-photo-wrapper {
         flex-direction: column;
 
         .promo {
