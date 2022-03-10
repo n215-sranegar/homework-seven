@@ -1,162 +1,91 @@
 .tours-row {
-    width: 818px;
-    height: 304px;
-    // background-color: rgb(211, 200, 198);
-    margin: $center;
-    margin-top: 55px;
-    margin-bottom: 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  
-    .box {
-      height: 304px;
-      width: 236px;
-      background-color: rgb(218, 218, 218);
-    }
-  
-    .left1 {
-      background-image: linear-gradient(
-          rgba($site-black, 0.4),
-          rgba($site-black, 0.4)
-        ),
-        url(../images/tour/tour-01.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
+  width: 818px;
+  height: 304px;
+  // background-color: rgb(211, 200, 198);
+  margin: $center;
+  margin-top: 55px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 
-    .left2 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-04.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .left3 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-07.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-  
-    .middle1 {
-      background-image: linear-gradient(
-          rgba($site-black, 0.4),
-          rgba($site-black, 0.4)
-        ),
-        url(../images/tour/tour-02.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-
-    .middle2 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-05.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .middle3 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-08.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-  
-    .right1 {
-      background-image: linear-gradient(
-          rgba($site-black, 0.4),
-          rgba($site-black, 0.4)
-        ),
-        url(../images/tour/tour-03.jpg);
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
-    }
-
-    .right2 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-06.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-
-      .right3 {
-        background-image: linear-gradient(
-            rgba($site-black, 0.4),
-            rgba($site-black, 0.4)
-          ),
-          url(../images/tour/tour-09.jpg);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-      }
-  
-    h2 {
-      text-align: center;
-      font-family: ProximaNova;
-      color: $site-white;
-      font-size: 60px;
-      text-transform: uppercase;
-      padding-top: 47px;
-      white-space: nowrap;
-    }
-  
-    h3 {
-      text-align: center;
-      font-family: ProximaNova;
-      color: $site-white;
-      font-size: 30px;
-      text-transform: uppercase;
-      margin-top: -15px;
-    }
-  
-    button {
-      width: 133px;
-      height: 40px;
-      background-color: $site-blue;
-      border: none;
-      border-radius: 20px;
-      color: $site-white;
-      font-family: GillSans;
-      font-size: 15px;
-      text-transform: uppercase;
-      margin: 35px 52px;
-    }
-  
-    button:hover {
-      cursor: pointer;
-    }
+  .box {
+    @include grid-box();
   }
-  
-    
+
+  .left2 {
+    @include grid-box(url(../images/tour/tour-04.jpg));
+  }
+
+  .left3 {
+    @include grid-box(url(../images/tour/tour-07.jpg));
+  }
+
+  .middle1 {
+    @include grid-box(url(../images/tour/tour-02.jpg));
+  }
+
+  .middle2 {
+    @include grid-box(url(../images/tour/tour-05.jpg));
+  }
+
+  .middle3 {
+    @include grid-box(url(../images/tour/tour-08.jpg));
+  }
+
+  .right1 {
+    @include grid-box(url(../images/tour/tour-03.jpg));
+  }
+
+  .right2 {
+    @include grid-box(url(../images/tour/tour-06.jpg));
+  }
+
+  .right3 {
+    @include grid-box(url(../images/tour/tour-09.jpg));
+  }
+
+  h2 {
+    text-align: center;
+    font-family: ProximaNova;
+    color: $site-white;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-top: 47px;
+    white-space: nowrap;
+  }
+
+  h3 {
+    text-align: center;
+    font-family: ProximaNova;
+    color: $site-white;
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-top: -15px;
+  }
+
+  button {
+    width: 133px;
+    height: 40px;
+    background-color: $site-blue;
+    border: none;
+    border-radius: 20px;
+    color: $site-white;
+    font-family: GillSans;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin: 35px 52px;
+  }
+
+  button:hover {
+    cursor: pointer;
+  }
+}
+
 @media screen and (max-width: 845px) {
-    .tours-row {
-      flex-direction: column;
-      width: 300px;
-      min-height: 940px;
-   
-    }
+  .tours-row {
+    flex-direction: column;
+    width: 300px;
+    min-height: 940px;
+  }
 }

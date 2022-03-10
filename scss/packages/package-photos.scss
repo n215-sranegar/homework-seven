@@ -10,117 +10,112 @@
     margin-bottom: 18px;
     
 
-    .promo {
-      @include promo(#f3f3f3);
-
-    }
-
     .isreal1 {
-        @include promo-photo-left();
+        @include promo-photo();
     }
 
     .isreal2 {
-        @include promo-photo-middle();
+        @include promo-photo();
     }
 
     .isreal3 {
-        @include promo-photo-right();
+        @include promo-photo();
     }
 
     .usa1 {
-        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-usa/usa-tour-01.jpg));
     }
 
     .usa2 {
-        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-usa/usa-tour-02.jpg));
     }
 
     .usa3 {
-        @include promo-photo-left(url(../images/tour/tour-usa/usa-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-usa/usa-tour-03.jpg));
     }
 
     .aus1 {
-        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-aus/aus-tour-01.jpg));
     }
 
     .aus2 {
-        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-aus/aus-tour-02.jpg));
     }
 
     .aus3 {
-        @include promo-photo-left(url(../images/tour/tour-aus/aus-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-aus/aus-tour-03.jpg));
     }
 
     .nz1 {
-        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-nz/nz-tour-01.jpg));
     }
 
     .nz2 {
-        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-nz/nz-tour-02.jpg));
     }
 
     .nz3 {
-        @include promo-photo-left(url(../images/tour/tour-nz/nz-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-nz/nz-tour-03.jpg));
     }
 
     .france1 {
-        @include promo-photo-left(url(../images/tour/tour-france/france-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-france/france-tour-01.jpg));
     }
 
     .france2 {
-        @include promo-photo-left(url(../images/tour/tour-france/france-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-france/france-tour-02.jpg));
     }
 
     .france3 {
-        @include promo-photo-left(url(../images/tour/tour-france/france-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-france/france-tour-03.jpg));
     }
 
     .egypt1 {
-        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-egypt/egypt-tour-01.jpg));
     }
 
     .egypt2 {
-        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-egypt/egypt-tour-02.jpg));
     }
 
     .egypt3 {
-        @include promo-photo-left(url(../images/tour/tour-egypt/egypt-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-egypt/egypt-tour-03.jpg));
     }
 
     .japan1 {
-        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-japan/japan-tour-01.jpg));
     }
 
     .japan2 {
-        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-japan/japan-tour-02.jpg));
     }
 
     .japan3 {
-        @include promo-photo-left(url(../images/tour/tour-japan/japan-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-japan/japan-tour-03.jpg));
     }
 
     .canada1 {
-        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-canada/canada-tour-01.jpg));
     }
 
     .canada2 {
-        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-canada/canada-tour-02.jpg));
     }
 
     .canada3 {
-        @include promo-photo-left(url(../images/tour/tour-canada/canada-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-canada/canada-tour-03.jpg));
     }
 
     .uae1 {
-        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-01.jpg));
+        @include promo-photo(url(../images/tour/tour-uae/uae-tour-01.jpg));
     }
 
     .uae2 {
-        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-02.jpg));
+        @include promo-photo(url(../images/tour/tour-uae/uae-tour-02.jpg));
     }
 
     .uae3 {
-        @include promo-photo-left(url(../images/tour/tour-uae/uae-tour-03.jpg));
+        @include promo-photo(url(../images/tour/tour-uae/uae-tour-03.jpg));
     }
 }
 
