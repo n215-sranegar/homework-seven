@@ -1205,14 +1205,14 @@ footer .footer-wrapper .social i:hover {
   }
   .package-intinerary-wrapper .day h2 {
     text-align: center;
+    margin-bottom: 39px;
   }
   .package-intinerary-wrapper .day h2:after {
     margin: 0 auto;
   }
   .package-intinerary-wrapper .day p {
-    text-align: center;
     margin: 0 auto;
-    max-width: 65%;
+    max-width: 68%;
   }
 }
 
