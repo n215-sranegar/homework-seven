@@ -305,7 +305,10 @@ nav .links span {
     flex-direction: column;
     width: 300px;
     min-height: 940px;
-    margin-top: 20px;
+    margin-top: 49.5px;
+  }
+  .tours .box {
+    margin-bottom: 34px;
   }
 }
 .form-content {
