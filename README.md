@@ -1,8 +1,6 @@
-<<<<<<< HEAD
-# Homework Sevenf
-=======
+
 # Homework Seven
->>>>>>> d567165530d2d2b87683c4e35c607ecb8c3c6b6c
+
 
 ## Adding a responsive tours page and individual tour package pages to the Travel-fly prototype.
 
