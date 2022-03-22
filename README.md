@@ -1,4 +1,4 @@
-# Homework Six
+# Homework Seven
 
 ## Adding a responsive tours page and individual tour package pages to the Travel-fly prototype.
 
@@ -6,4 +6,4 @@ I learned how to use Mixins and create multiple pages from a CSS class. I used p
 
 Mixins have been extremely helpful with keeping my code organized, readable, and clean. I really enjoy using them. 
 
-https://in-info-web4.informatics.iupui.edu/~sranegar/homework-six/index.html
+https://in-info-web4.informatics.iupui.edu/~sranegar/homework-seven/index.html
