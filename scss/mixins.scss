@@ -86,3 +86,11 @@
   background-position: center;
   background-repeat: none;
 }
+
+//Blog photo
+@mixin blog-img($blogImg: url(../images/blog.jpg)) {
+  background-image: $blogImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
+}
