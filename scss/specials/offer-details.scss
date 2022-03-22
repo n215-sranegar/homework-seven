@@ -1,0 +1,137 @@
+.special-offers {
+  max-width: $site-width;
+    // background-color: aquamarine;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  
+  h1 {
+    font-family: ProximaNova;
+    margin-top: 59.5px;
+    letter-spacing: 3px;
+    font-size: 30px;
+    font-weight: lighter;
+    text-transform: uppercase;
+  }
+
+  h1:after {
+    content: "";
+    display: block;
+    border-bottom: 2px solid black;
+    width: 199px;
+    margin-top: 5px;
+    margin-bottom: 35.5px;
+  }
+
+  .offer-container {
+    max-width: 530px;
+    height: auto;
+    // background-color: mediumturquoise;
+    display: flex;
+    margin-bottom: 60px;
+    position: relative;
+
+    .img-container {
+      width: 199px;
+      height: 287px;
+      overflow: hidden;
+      background-color: mediumslateblue;
+
+      .image {
+        width: 100%;
+        height: 100%;
+        @include special-offer-img();
+      }
+
+      .img-offer2 {
+        @include special-offer-img(url(../images/special-offer-02.jpg));
+      }
+    }
+
+ 
+
+    .offer-info-container {
+      height: 100%;
+      padding: 5px 5px 0 20px;
+    //   background-color: red;
+
+      h2 {
+        font-family: ProximaNova;
+        letter-spacing: 2.5px;
+        font-size: 30px;
+        font-weight: lighter;
+        text-transform: uppercase;
+      }
+
+      h2:after {
+        content: "";
+        display: block;
+        border-bottom: 2px solid black;
+        max-width: 196px;
+        margin-top: 5px;
+      }
+
+      span {
+        color: $site-orange;
+        font-family: ProximaNova;
+        font-size: 20px;
+        letter-spacing: 2px;
+        text-transform: lowercase;
+        margin-left: -7.5px;
+      }
+
+      p {
+        font-family: GillSans;
+        font-size: 16px;
+        max-width: 290px;
+        padding-bottom: 40px;
+        line-height: 20px;
+      }
+
+      button {
+        width: 133px;
+        height: 40px;
+        background-color: $site-blue;
+        border: none;
+        border-radius: 20px;
+        color: $site-white;
+        font-family: GillSans;
+        font-size: 15px;
+        text-transform: uppercase;
+        position: absolute;
+        bottom: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .special-offers {
+    h1 {
+    }
+    .offer-container {
+      flex-direction: column;
+ 
+
+      .img-container {
+        margin: 0 auto;
+        width: 100%;
+      }
+
+      .offer-info-container {
+        padding-top: 20px;
+        padding-right: 10px;
+        h2 {
+        }
+        p {
+          max-width: 95%;
+          padding-bottom: 60px;
+        }
+
+        span {
+          padding-left: 5px;
+        }
+        
+      }
+    }
+  }
+}

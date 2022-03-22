@@ -24,12 +24,12 @@
 //Navigation hamburger menu
 @mixin navigation-hamburger-menu($site-white: #fff) {
   position: absolute;
-    right: 20px;
-    top: 10px;
-    font-size: 35px;
-    line-height: 50px;
-    color: $site-white;
-    display: none;
+  right: 20px;
+  top: 10px;
+  font-size: 35px;
+  line-height: 50px;
+  color: $site-white;
+  display: none;
 }
 
 //Tour Package Hero Mixin
@@ -77,4 +77,12 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+//Specials photo
+@mixin special-offer-img($offerImg: url(../images/special-offer-01.jpg)) {
+  background-image: $offerImg;
+  background-size: cover;
+  background-position: center;
+  background-repeat: none;
 }

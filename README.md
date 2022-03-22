@@ -2,7 +2,7 @@
 # Homework Seven
 
 
-## Adding a responsive tours page and individual tour package pages to the Travel-fly prototype.
+## Adding responsive special offers, blog, and contact pages to the Travel-fly prototype.
 
 I learned how to use Mixins and create multiple pages from a CSS class. I used percentages and media queries to make my site responsive and adaptable. I also learned how to make a turn my navigation into a hamburger menu once it reached a certain pixel width targeted for most mobile devices. 
 
