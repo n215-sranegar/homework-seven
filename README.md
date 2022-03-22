@@ -1,4 +1,4 @@
-# Homework Six
+# Homework Seven
 
 ## Adding a responsive tours page and individual tour package pages to the Travel-fly prototype.
 
