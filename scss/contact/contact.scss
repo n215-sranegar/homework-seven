@@ -1,6 +1,6 @@
 .contact {
   max-width: $site-width;
-//   background-color: mediumpurple;
+  //   background-color: mediumpurple;
   margin: 0 auto;
   padding-bottom: 100px;
 
@@ -23,19 +23,19 @@
   }
 
   .contact-content {
-    background-color: mediumspringgreen;
+    // background-color: mediumspringgreen;
     max-width: 100%;
     display: flex;
     justify-content: space-between;
 
     .map-address {
       width: 400px;
-      background-color: beige;
+      //   background-color: beige;
 
       .map {
         width: 100%;
         height: 442px;
-        background-color: salmon;
+        // background-color: salmon;
         background-image: url(../images/map.jpg);
         background-size: cover;
         background-position: center;
@@ -43,7 +43,7 @@
       }
 
       .address-wrapper {
-        background-color: mediumorchid;
+        // background-color: mediumorchid;
         margin-top: 34px;
 
         p {
@@ -56,7 +56,7 @@
 
     .contact-form {
       width: 529px;
-      background-color: midnightblue;
+      //   background-color: midnightblue;
       padding: 0 5px;
 
       input {
@@ -86,48 +86,51 @@
         width: 167px;
 
         button {
-          background-color: $site-blue;
-          width: 100%;
-          height: 60px;
-          border: none;
-          color: $site-white;
-          font-family: GillSans;
-          font-size: 16px;
-          text-transform: uppercase;
+          @include site-btn(
+            $btnBorderRadius: none,
+            $btnHeight: 60px,
+            $btnWidth: 100%,
+            $btnFontSize: 16px
+          );
           letter-spacing: 2px;
-
-          &:hover {
-              cursor: pointer;
-          }
         }
-
-
       }
     }
   }
 }
 
 @media screen and (max-width: 800px) {
-    .contact {
-       .contact-content {
-        flex-direction: column-reverse;
-        .map-address {
-            margin: 40px auto;
-            width: 100%;
+  .contact {
+    .contact-content {
+      flex-direction: column-reverse;
+      .map-address {
+        margin: 40px auto;
+        width: 100%;
 
-            .address-wrapper {
-                text-align: center;
-            }
+        .address-wrapper {
+          text-align: center;
         }
-        .contact-form {
-            margin: 0 auto;
-            width: 100%;
+      }
+      .contact-form {
+        margin: 0 auto;
+        width: 100%;
 
-            .button-wrapper {
-                margin: 0 auto;
-            }
+        input {
+          font-size: 14px;
         }
-       }
+
+        textarea {
+          font-size: 14px;
+        }
+
+        .button-wrapper {
+          margin: 40px auto;
+
+          button {
+            font-size: 14px;
+          }
+        }
+      }
     }
   }
-  
+}

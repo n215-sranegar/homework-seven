@@ -94,3 +94,21 @@
   background-position: center;
   background-repeat: none;
 }
+
+//Site button
+@mixin site-btn($btnBorderRadius: 20px, $btnHeight: 40px, $btnWidth: 133px, $btnFontSize: 15px) {
+  width: $btnWidth;
+  height: $btnHeight;
+  background-color: $site-blue;
+  border: none;
+  border-radius: $btnBorderRadius;
+  color: $site-white;
+  font-family: GillSans;
+  font-size: $btnFontSize;
+  text-transform: uppercase;
+ 
+
+  &:hover {
+    cursor: pointer;
+  }
+}

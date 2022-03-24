@@ -34,7 +34,7 @@
       width: 199px;
       height: 287px;
       overflow: hidden;
-      background-color: mediumslateblue;
+      // background-color: mediumslateblue;
 
       .image {
         width: 100%;
@@ -88,15 +88,7 @@
       }
 
       button {
-        width: 133px;
-        height: 40px;
-        background-color: $site-blue;
-        border: none;
-        border-radius: 20px;
-        color: $site-white;
-        font-family: GillSans;
-        font-size: 15px;
-        text-transform: uppercase;
+        @include site-btn();
         position: absolute;
         bottom: 0;
       }

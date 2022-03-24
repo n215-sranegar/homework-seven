@@ -59,7 +59,7 @@
       .blog-img {
         height: 259px;
         width: 100%;
-        background-color: mediumorchid;
+        // background-color: mediumorchid;
         @include blog-img();
       }
       h3 {
@@ -86,7 +86,11 @@
             .blog-main-content {
                 width: 100%;
             }
-         
+            .date {
+                .month {
+                    margin-top: -16px;
+                }
+            }
         }
     }
 }

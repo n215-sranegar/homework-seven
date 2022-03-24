@@ -38,19 +38,10 @@
       margin: 48px auto 0 auto;
 
       button {
-        background-color: $site-blue;
-        width: 121.62px;
-        height: 40px;
-        border: none;
-        color: $site-white;
-        font-family: GillSans;
-        font-size: 15px;
-        text-transform: uppercase;
+        @include site-btn($btnBorderRadius: 0px, $btnWidth: 121.62px)
       }
     
-      button:hover {
-        cursor: pointer;
-      }
+  
     }
 
   }

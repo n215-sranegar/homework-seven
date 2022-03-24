@@ -67,21 +67,10 @@
     }
   
     button {
-      width: 133px;
-      height: 40px;
-      background-color: $site-blue;
-      border: none;
-      border-radius: 20px;
-      color: $site-white;
-      font-family: GillSans;
-      font-size: 15px;
-      text-transform: uppercase;
       margin: 35px 52px;
+      @include site-btn();
     }
-  
-    button:hover {
-      cursor: pointer;
-    }
+   
   }
   
     
