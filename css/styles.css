@@ -388,15 +388,16 @@ nav .links span {
   margin-top: 20px;
 }
 .form-content .button-wrapper button {
-  min-width: 100%;
-  background-color: #79addc;
+  width: 133px;
   height: 60.59px;
+  background-color: #79addc;
   border: none;
-  color: white;
+  border-radius: 30px;
+  color: #fff;
   font-family: GillSans;
   font-size: 15px;
   text-transform: uppercase;
-  border-radius: 30px;
+  min-width: 100%;
   margin-bottom: 100px;
 }
 .form-content .button-wrapper button:hover {

@@ -95,20 +95,9 @@
     margin-top: 20px;
 
     button {
+      @include site-btn($btnBorderRadius: 30px, $btnHeight: 60.59px);
       min-width: 100%;
-      background-color: $site-blue;
-      height: 60.59px;
-      border: none;
-      color: white;
-      font-family: GillSans;
-      font-size: 15px;
-      text-transform: uppercase;
-      border-radius: 30px;
       margin-bottom: 100px;
-    }
-
-    button:hover {
-      cursor: pointer;
     }
   }
 }
