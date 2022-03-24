@@ -1497,7 +1497,6 @@ footer .footer-wrapper .social i:hover {
 }
 .contact {
   max-width: 980px;
-  background-color: mediumpurple;
   margin: 0 auto;
   padding-bottom: 100px;
 }
@@ -1519,13 +1518,12 @@ footer .footer-wrapper .social i:hover {
 }
 .contact .contact-content {
   background-color: mediumspringgreen;
-  width: 100%;
+  max-width: 100%;
   display: flex;
   justify-content: space-between;
 }
 .contact .contact-content .map-address {
   width: 400px;
-  height: 637px;
   background-color: beige;
 }
 .contact .contact-content .map-address .map {
@@ -1538,7 +1536,6 @@ footer .footer-wrapper .social i:hover {
   background-repeat: no-repeat;
 }
 .contact .contact-content .map-address .address-wrapper {
-  height: 161px;
   background-color: mediumorchid;
   margin-top: 34px;
 }
@@ -1571,6 +1568,7 @@ footer .footer-wrapper .social i:hover {
   padding: 20px;
   font-family: GillSans;
   font-size: 16px;
+  resize: none;
 }
 .contact .contact-content .contact-form .button-wrapper {
   background-color: pink;
@@ -1578,7 +1576,7 @@ footer .footer-wrapper .social i:hover {
 }
 .contact .contact-content .contact-form .button-wrapper button {
   background-color: #79addc;
-  width: 167px;
+  width: 100%;
   height: 60px;
   border: none;
   color: #fff;
@@ -1586,6 +1584,29 @@ footer .footer-wrapper .social i:hover {
   font-size: 16px;
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+.contact .contact-content .contact-form .button-wrapper button:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .contact .contact-content {
+    flex-direction: column-reverse;
+  }
+  .contact .contact-content .map-address {
+    margin: 40px auto;
+    width: 100%;
+  }
+  .contact .contact-content .map-address .address-wrapper {
+    text-align: center;
+  }
+  .contact .contact-content .contact-form {
+    margin: 0 auto;
+    width: 100%;
+  }
+  .contact .contact-content .contact-form .button-wrapper {
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

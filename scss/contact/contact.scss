@@ -1,6 +1,6 @@
 .contact {
   max-width: $site-width;
-  background-color: mediumpurple;
+//   background-color: mediumpurple;
   margin: 0 auto;
   padding-bottom: 100px;
 
@@ -24,13 +24,12 @@
 
   .contact-content {
     background-color: mediumspringgreen;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: space-between;
 
     .map-address {
       width: 400px;
-      height: 637px;
       background-color: beige;
 
       .map {
@@ -44,7 +43,6 @@
       }
 
       .address-wrapper {
-        height: 161px;
         background-color: mediumorchid;
         margin-top: 34px;
 
@@ -81,6 +79,7 @@
         padding: 20px;
         font-family: GillSans;
         font-size: 16px;
+        resize: none;
       }
       .button-wrapper {
         background-color: pink;
@@ -88,7 +87,7 @@
 
         button {
           background-color: $site-blue;
-          width: 167px;
+          width: 100%;
           height: 60px;
           border: none;
           color: $site-white;
@@ -96,8 +95,39 @@
           font-size: 16px;
           text-transform: uppercase;
           letter-spacing: 2px;
+
+          &:hover {
+              cursor: pointer;
+          }
         }
+
+
       }
     }
   }
 }
+
+@media screen and (max-width: 800px) {
+    .contact {
+       .contact-content {
+        flex-direction: column-reverse;
+        .map-address {
+            margin: 40px auto;
+            width: 100%;
+
+            .address-wrapper {
+                text-align: center;
+            }
+        }
+        .contact-form {
+            margin: 0 auto;
+            width: 100%;
+
+            .button-wrapper {
+                margin: 0 auto;
+            }
+        }
+       }
+    }
+  }
+  
