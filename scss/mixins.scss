@@ -96,7 +96,12 @@
 }
 
 //Site button
-@mixin site-btn($btnBorderRadius: 20px, $btnHeight: 40px, $btnWidth: 133px, $btnFontSize: 15px) {
+@mixin site-btn(
+  $btnBorderRadius: 20px,
+  $btnHeight: 40px,
+  $btnWidth: 133px,
+  $btnFontSize: 15px
+) {
   width: $btnWidth;
   height: $btnHeight;
   background-color: $site-blue;
@@ -106,7 +111,6 @@
   font-family: GillSans;
   font-size: $btnFontSize;
   text-transform: uppercase;
- 
 
   &:hover {
     cursor: pointer;
